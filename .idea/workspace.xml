@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="sisi_project:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a90e87f9-3609-407e-9c88-52fcaf0bd1ae" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epochong/controller/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epochong/controller/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epochong/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epochong/dao/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epochong/entity/Message2Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epochong/entity/MessageFromClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epochong/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epochong/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epochong/utils/CommUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epochong/utils/JdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/epochong/utils/JdbcUtils1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/sql/mysql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/alertInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/avatars/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/avatars/avatar1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/avatars/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/avatars/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/avatars/avatar4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/avatars/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/avatars/profile-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/avatars/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace-ie.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace-part2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-duallistbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-editable.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-multiselect.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-timepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/chosen-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/chosen-sprite@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/chosen.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/colorbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/colorpicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/daterangepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/dropzone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/loading_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/meteorshower2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/pattern.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/pattern1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/pattern2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/qrcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/img/alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/img/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/img/saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/jquery-ui.custom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/jquery.gritter.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/prettify.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/select2-spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/select2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ui.jqgrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ui.jqgrid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.1.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.2.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/fonts.googleapis.com.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/email1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/email2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/email3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/email4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/spritemap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/spritemap@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/ace-editable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/ace-elements.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/ace-extra.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/ace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-editable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-markdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-multiselect.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-tag.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-timepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-wysiwyg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/chosen.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/dataTables.colVis.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/dataTables.tableTools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/daterangepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/dropzone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/fuelux.spinner.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/fuelux.tree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/fuelux.wizard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/grid.locale-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-ui.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.1.11.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.autosize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.bootstrap-duallistbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.colorbox-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.colorbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.easypiechart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.flot.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.flot.pie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.flot.resize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.gritter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.hotkeys.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.inputlimiter.1.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.jqGrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.knob.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.maskedinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.mobile.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.nestable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.raty.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.ui.touch-punch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery1x.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/markdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/prettify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/spin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/typeahead.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/swf/copy_csv_xls_pdf.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/detail0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/detail1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/detail2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/forgetpass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/form1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/a7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b74.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b77.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b78.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/b9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/body_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/c1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/c2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/d1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/enter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icon-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icon-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icon-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icon-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icon-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icon-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icon-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/left-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/li2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/li_ii.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ny-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ny-bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/pop100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/slider1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/slider2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/slider3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/t-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tit-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/title-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/title-bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/tri.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/yzm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-pic1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-pic10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-pic2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-pic3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-pic4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-pic5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-pic6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-pic7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-pic8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-pic9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-text1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-text2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list-text3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="job_recommend@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="job_recommend@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="job_recommend@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="job_recommend: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="job_recommend@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="job_recommend: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="administrator: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="job_recommend@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="job_recommend: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epochong/controller/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user" pinned="false" current-in-tab="false">
+        <entry file="das://1039e8e7-7519-4163-ba2b-7d3e23b53ea6/schema/job_recommend/table/user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alertInfo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/alertInfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail0.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/detail0.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="160" column="21" lean-forward="true" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#label#4;n#label#0;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epochong/controller/RegisterServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>username</find>
+      <find>servle</find>
+      <find>登录</find>
+      <find>pass</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/53ddebbd-f76c-4ef2-86ad-c66ebd7b379b/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epochong/chatroom/service/WebSocket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epochong/service/WebSocket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epochong/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epochong/entity/Message2Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epochong/entity/MessageFromClient.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/datasource.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epochong/dao/AccountDao.java" />
+        <option value="$PROJECT_DIR$/src/main/sql/mysql.sql" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/alertInfo.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epochong/controller/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/register.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epochong/controller/RegisterServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="F:\Program\Java\Maven\Tools\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Tools/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="F:\Program\Java\Maven\Tools\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sisi_project Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="835" />
+    <option name="y" value="110" />
+    <option name="width" value="830" />
+    <option name="height" value="680" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sisi_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sisi_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sisi_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sisi_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sisi_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sisi_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sisi_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sisi_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sisi_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sisi_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sisi_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sisi_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="epochong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sisi_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sisi_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="epochong" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sisi_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sisi_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="epochong" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sisi_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sisi_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="epochong" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sisi_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sisi_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="epochong" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sisi_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sisi_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="epochong" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sisi_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sisi_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sisi_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sisi_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sisi_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sisi_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Project/chatroom_websocket" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Program\Java\Maven\JavaEE\JavaWeb\sisi_project\src\main" />
+      <recent name="F:\Program\Java\Maven\JavaEE\JavaWeb\sisi_project\src\main\java" />
+      <recent name="F:\Program\Java\Maven\JavaEE\JavaWeb\sisi_project\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_sisi_project" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59600" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <configuration name="job_recommend" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="sisi_project:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_sisi_project" />
+        <option name="HTTP_PORT" value="8081" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59600" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="sisi_project:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a90e87f9-3609-407e-9c88-52fcaf0bd1ae" name="Default" comment="" />
+      <created>1571060059144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571060059144</updated>
+      <workItem from="1571060077768" duration="48000" />
+      <workItem from="1571108890387" duration="1449000" />
+      <workItem from="1571301949256" duration="480000" />
+      <workItem from="1571396568446" duration="136000" />
+      <workItem from="1571475864575" duration="9922000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12035000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32998565" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32894737" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.23293173" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.32137734" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32998565" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3687231" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Database Console" weight="0.0" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23025435" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998565" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/list-text2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/forgetpass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1039e8e7-7519-4163-ba2b-7d3e23b53ea6/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epochong/config/FreeMarkerListener.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epochong/utils/JdbcUtils1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epochong/utils/JdbcUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epochong/service/WebSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epochong/utils/CommUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epochong/entity/Message2Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epochong/entity/MessageFromClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1039e8e7-7519-4163-ba2b-7d3e23b53ea6/schema/job_recommend/table/administrator">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epochong/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1052">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sql/mysql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/list-text3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="209" column="74" selection-start-line="209" selection-start-column="62" selection-end-line="209" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epochong/dao/AccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epochong/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epochong/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#label#4;n#label#0;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/alertInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53ddebbd-f76c-4ef2-86ad-c66ebd7b379b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epochong/controller/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epochong/controller/RegisterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://1039e8e7-7519-4163-ba2b-7d3e23b53ea6/schema/job_recommend/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/detail0.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="160" column="21" lean-forward="true" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

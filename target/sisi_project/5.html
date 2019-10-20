@@ -1,0 +1,1370 @@
+
+<!DOCTYPE html>
+<html xmlns:shiro="http://www.ncss.cn/thymeleaf/shiro">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="renderer" content="webkit" />
+	<meta name="keywords" content="新职业-求职 招聘 找工作 一体化系统 学籍验证">
+    <meta name="description" content="全国大学生就业公共服务立体化平台（新职业）是中国高校毕业生就业服务信息网的升级和拓展，由教育部举办，全国高校毕业生就业网络联盟支持，为大学生就业和用人单位招聘提供网上、网下相结合的多功能服务。">
+    <meta name="author" content="全国高等学校学生信息咨询与就业指导中心">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+	<link rel="dns-prefetch" href="//t1.chei.com.cn">
+	<link rel="dns-prefetch" href="//t2.chei.com.cn">
+	<link rel="dns-prefetch" href="//t3.chei.com.cn">
+	<link rel="dns-prefetch" href="//t4.chei.com.cn">
+	<link rel="dns-prefetch" href="//www.google-analytics.com">
+	<title>企业列表</title> 
+	<link rel="icon" href="//t4.chei.com.cn/ncss/student/img/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="//t4.chei.com.cn/ncss/student/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="//t3.chei.com.cn/ncss/student/css/iconfont.css"/>
+	<link rel="stylesheet" type="text/css" href="//t2.chei.com.cn/ncss/student/css/meta.min.css"/>
+	<link rel="stylesheet" href="//t1.chei.com.cn/ncss/student/css/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="//t3.chei.com.cn/ncss/student/css/modal-1.0.2.css"/>
+	<!--[if lt IE 9]><script src="http://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.js"></script><script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+	
+	<script src="https://t1.chei.com.cn/common/js/boomerang-min-20141211.js" type="text/javascript"></script>
+	<script type="text/javascript">
+        BOOMR.init({
+            beacon_url: "https://www.chsi.com.cn/images/perf.gif",
+            log: null,
+            DNS:{
+                base_url: "https://*.chdi.com.cn/images/"
+            }
+        });
+	</script>
+	<script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-105074615-2', 'auto');
+        ga('send', 'pageview');
+	</script>
+</head>
+
+<link rel="stylesheet" href="css/style1.css">
+
+
+
+<body>
+    <nav>
+		<nav class="navbar-inverse">
+			<div class="navbar">
+				<ul class="nav navbar-nav">
+					<li><a href="https://www.ncss.cn" target="_blank">首页</a></li>				
+					<li><a href="https://cy.ncss.cn/" target="_blank">创业服务</a></li>
+					<li><a href="https://js.ncss.cn/" target="_blank">指导教师</a></li>
+					<li><a href="https://zazhi.ncss.cn/" target="_blank">就业杂志</a></li>
+					<li><a href="https://gj.ncss.cn/" target="_blank">国际组织</a></li>
+					<li><a href="https://xj.ncss.cn/" target="_blank">新疆就业</a></li>
+					<li><a href="https://www.chsi.com.cn/" target="_blank">学信网</a></li> 	
+		        </ul>
+		        
+		        	
+		        
+				
+				<ul class="nav navbar-nav navbar-right">
+					<li class="link">
+						<a href="/student/signin.html">登录</a>
+					</li>
+					<li class="link">
+						<a href="/student/register.html">注册</a>
+					</li>
+					<li class="link">
+						<a class="corp-btnsignin" href="/corp/signin.html">企业入口</a>
+					</li>
+				</ul>
+		   </div>
+		</nav> 
+	</nav>
+    <header>
+    <header class="navbar navbar-static-top basic-bd-bt" role="banner" style="border-bottom:4px solid #239bd2;">
+        <div class="container">
+            <a class="navbar-brand" href="//www.ncss.cn" style="height:60px;line-height:60px;margin-right:20px;">
+                <img class="headlogo headlogoquan"  style="margin:3px 22px 0 0;" src="//t4.chei.com.cn/ncss/student/img/logo.svg" type="image/svg+xml"  alt="LOGO">
+                
+            </a>
+            <span class="loaction-span" id="siteChange"><span class="site-name" title="全国">全国</span><span class="quote">【切换】</span></span>
+            <ul class="nav navbar-nav navbar2 navbar-left header-nav">
+                <li data-type="index"><a class="index-link basic-bg-hv2" href="/student/index.html" target="_blank">首页</a></li>
+                <li data-type="job"><a href="/student/jobs/index.html" class="basic-bg-hv2" target="_blank">职位</a></li>
+                <li data-type="intern"><a href="/student/jobs/internindex.html" class="basic-bg-hv2" target="_blank">实习</a></li>
+                <li data-type="corp"><a href="/student/company/index.html" class="basic-bg-hv2" target="_blank">企业</a></li>
+                <li data-type="jobfair"><a href="/student/jobfair/index.html" class="basic-bg-hv2" target="_blank">招聘会</a></li>
+                <li><a class="basic-bg-hv2" href="//xz.chsi.com.cn/home.action" target="_blank">测评</a></li>
+                <li><a class="basic-bg-hv2" href="//www.ncss.cn/zx/jydt/index.shtml" target="_blank">动态</a></li>
+                <li><a class="basic-bg-hv2" href="//www.ncss.cn/zx/zcfg/index.shtml" target="_blank">政策</a></li>
+                <li><a class="basic-bg-hv2" href="//www.ncss.cn/zd/index.shtml" target="_blank">指导</a></li>
+                <li><a class="basic-bg-hv2" href="//www.ncss.cn/jc/index.shtml" target="_blank">基层</a></li>
+                <li><a class="basic-bg-hv2" href="//www.ncss.cn/tbch/" target="_blank">专题</a></li>
+            </ul>
+            <div class="officialVoice pull-right" style="margin-right:0">
+                <div style="display:inline-block;width:40px;height:40px">
+                    <img src="//t4.chei.com.cn/ncss/student/img/weibo.png">
+                </div>
+                <div class="bigPic">
+                    <img src="//t3.chei.com.cn/ncss/student/img/weibobig2.jpg">
+                </div>
+            </div>
+            <div class="officialVoice pull-right">
+                <div style="display:inline-block;width:40px;height:40px">
+                    <img src="//t2.chei.com.cn/ncss/student/img/weixin.png">
+                </div>
+                <div class="bigPic">
+                    <img src="//t1.chei.com.cn/ncss/student/img/weixinbig2.jpg">
+                </div>
+            </div>
+        </div>
+        
+    </header>
+</header>
+    
+    <div id="container">
+<!--        公共头部-->
+      
+
+<!--        内容主体-->
+        <div id="content">
+            <div class="content-wrap">
+                <div class="btn-group btn-group-lg search-bar">
+                   <!-- 地区 -->
+                    <div  class="btn-group btn-group-lg qg ">
+	        <button type="button" class="btn btn-default dropdown-toggle basic-bd-color" id="searchArea" data-area="" data-name="全国">全国
+	          <span class="caret"></span>
+	        </button>
+	        <ul class="dropdown-menu" role="menu" id="cityDropdown">
+	          <li>
+	            <a href="javascript:;">热搜城市</a>
+	          </li>
+	          <li>
+	            <a href="javascript:;">
+	              <span class="areacode" data-area="">全国</span>
+	              <span class="areacode" data-area="11">北京</span>
+	              <span class="areacode" data-area="31">上海</span>
+	              <span class="areacode" data-area="440100">广州</span>
+	              <span class="areacode" data-area="440300">深圳</span>
+	              <span class="areacode" data-area="330100">杭州</span>
+	              <span class="areacode" data-area="510100">成都</span>
+	              <span class="areacode" data-area="410100">郑州</span>
+	              <span class="areacode" data-area="12">天津</span>
+	              <span class="areacode" data-area="420100">武汉</span>
+	              <span class="areacode" data-area="610100">西安</span>
+	            </a>
+	          </li>
+	          <li style="margin-top:10px;">
+	            <a href="javascript:;">省市列表:</a>
+	          </li>
+	          <li>
+	            <a class="onecode" href="javascript:;">
+	              <span data-index="01" data-area="34">安徽</span>
+	              <span data-index="02" data-area="11">北京</span>
+	              <span data-index="03" data-area="50">重庆</span>
+	              <span data-index="04" data-area="35">福建</span>
+	              <span data-index="05" data-area="62">甘肃</span>
+	              <span data-index="06" data-area="44">广东</span>
+	              <span data-index="07" data-area="45">广西</span>
+	              <span data-index="08" data-area="52">贵州</span>
+	              <span data-index="09" data-area="63">海南</span>
+	              <span data-index="10" data-area="23">黑龙江</span>
+	              <span data-index="11" data-area="13">河北</span>
+	              <span data-index="12" data-area="41">河南</span>
+	            </a>
+	          </li>
+	          <ul class="shilist clearfix hide" data-index="01">
+	            <li class="areacode" data-area="34">安徽省</li>
+	            <li class="areacode" data-area="340100">合肥市</li>
+	            <li class="areacode" data-area="340200">芜湖市</li>
+	            <li class="areacode" data-area="340300">蚌埠市</li>
+	            <li class="areacode" data-area="340400">淮南市</li>
+	            <li class="areacode" data-area="340500">马鞍山市</li>
+	            <li class="areacode" data-area="340600">淮北市</li>
+	            <li class="areacode" data-area="340700">铜陵市</li>
+	            <li class="areacode" data-area="340800">安庆市</li>
+	            <li class="areacode" data-area="341000">黄山市</li>
+	            <li class="areacode" data-area="341100">滁州市</li>
+	            <li class="areacode" data-area="341200">阜阳市</li>
+	            <li class="areacode" data-area="341300">宿州市</li>
+	            <li class="areacode" data-area="341500">六安市</li>
+	            <li class="areacode" data-area="341600">亳州市</li>
+	            <li class="areacode" data-area="341700">池州市</li>
+	            <li class="areacode" data-area="341800">宣城市</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="02">
+	            <!-- <li class="areacode" data-area="110100">市辖区</li> -->
+	            <li class="areacode" data-area="11">北京市</li>
+	            <li class="areacode" data-area="110101">东城区</li>
+	            <li class="areacode" data-area="110102">西城区</li>
+	            <li class="areacode" data-area="110105">朝阳区</li>
+	            <li class="areacode" data-area="110106">丰台区</li>
+	            <li class="areacode" data-area="110107">石景山区</li>
+	            <li class="areacode" data-area="110108">海淀区</li>
+	            <li class="areacode" data-area="110109">门头沟区</li>
+	            <li class="areacode" data-area="110111">房山区</li>
+	            <li class="areacode" data-area="110112">通州区</li>
+	            <li class="areacode" data-area="110113">顺义区</li>
+	            <li class="areacode" data-area="110114">昌平区</li>
+	            <li class="areacode" data-area="110115">大兴区</li>
+	            <li class="areacode" data-area="110116">怀柔区</li>
+	            <li class="areacode" data-area="110117">平谷区</li>
+	            <li class="areacode" data-area="110118">密云区</li>
+	            <li class="areacode" data-area="110119">延庆区</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="03">
+	            <!-- <li class="areacode" data-area="500100">市辖区</li> -->
+	            <li class="areacode" data-area="50">重庆市</li>
+	            <li class="areacode" data-area="500101">万州区</li>
+	            <li class="areacode" data-area="500102">涪陵区</li>
+	            <li class="areacode" data-area="500103">渝中区</li>
+	            <li class="areacode" data-area="500104">大渡口区</li>
+	            <li class="areacode" data-area="500105">江北区</li>
+	            <li class="areacode" data-area="500106">沙坪坝区</li>
+	            <li class="areacode" data-area="500107">九龙坡区</li>
+	            <li class="areacode" data-area="500108">南岸区</li>
+	            <li class="areacode" data-area="500109">北碚区</li>
+	            <li class="areacode" data-area="500110">綦江区</li>
+	            <li class="areacode" data-area="500111">大足区</li>
+	            <li class="areacode" data-area="500112">渝北区</li>
+	            <li class="areacode" data-area="500113">巴南区</li>
+	            <li class="areacode" data-area="500114">黔江区</li>
+	            <li class="areacode" data-area="500115">长寿区</li>
+	            <li class="areacode" data-area="500116">江津区</li>
+	            <li class="areacode" data-area="500117">合川区</li>
+	            <li class="areacode" data-area="500118">永川区</li>
+	            <li class="areacode" data-area="500119">南川区</li>
+	            <li class="areacode" data-area="500120">璧山区</li>
+	            <li class="areacode" data-area="500151">铜梁区</li>
+	            <li class="areacode" data-area="500152">潼南区</li>
+	            <li class="areacode" data-area="500153">荣昌区</li>
+	            <li class="areacode" data-area="500154">开州区</li>
+	            <li class="areacode" data-area="500155">梁平区</li>
+	            <li class="areacode" data-area="500156">武隆区</li>
+	            <li class="areacode" data-area="500229">城口县</li>
+	            <li class="areacode" data-area="500230">丰都县</li>
+	            <li class="areacode" data-area="500231">垫江县</li>
+	            <li class="areacode" data-area="500233">忠县</li>
+	            <li class="areacode" data-area="500235">云阳县</li>
+	            <li class="areacode" data-area="500236">奉节县</li>
+	            <li class="areacode" data-area="500237">巫山县</li>
+	            <li class="areacode" data-area="500238">巫溪县</li>
+	            <li class="areacode" data-area="500240">石柱土家族自治县</li>
+	            <li class="areacode" data-area="500241">秀山土家族苗族自治县</li>
+	            <li class="areacode" data-area="500242">酉阳土家族苗族自治县</li>
+	            <li class="areacode" data-area="500243">彭水苗族土家族自治县</li>
+	
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="04">
+	            <li class="areacode" data-area="35">福建省</li>
+	            <li class="areacode" data-area="350100">福州市</li>
+	            <li class="areacode" data-area="350200">厦门市</li>
+	            <li class="areacode" data-area="350300">莆田市</li>
+	            <li class="areacode" data-area="350400">三明市</li>
+	            <li class="areacode" data-area="350500">泉州市</li>
+	            <li class="areacode" data-area="350600">漳州市</li>
+	            <li class="areacode" data-area="350700">南平市</li>
+	            <li class="areacode" data-area="350800">龙岩市</li>
+	            <li class="areacode" data-area="350900">宁德市</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="05">
+	            <li class="areacode" data-area="62">甘肃省</li>
+	            <li class="areacode" data-area="620100">兰州市</li>
+	            <li class="areacode" data-area="620200">嘉峪关市</li>
+	            <li class="areacode" data-area="620300">金昌市</li>
+	            <li class="areacode" data-area="620400">白银市</li>
+	            <li class="areacode" data-area="620500">天水市</li>
+	            <li class="areacode" data-area="620600">武威市</li>
+	            <li class="areacode" data-area="620700">张掖市</li>
+	            <li class="areacode" data-area="620800">平凉市</li>
+	            <li class="areacode" data-area="620900">酒泉市</li>
+	            <li class="areacode" data-area="621000">庆阳市</li>
+	            <li class="areacode" data-area="621100">定西市</li>
+	            <li class="areacode" data-area="621200">陇南市</li>
+	            <li class="areacode" data-area="622900">临夏回族自治州</li>
+	            <li class="areacode" data-area="623000">甘南藏族自治州</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="06">
+	            <li class="areacode" data-area="44">广东省</li>
+	            <li class="areacode" data-area="440100">广州市</li>
+	            <li class="areacode" data-area="440200">韶关市</li>
+	            <li class="areacode" data-area="440300">深圳市</li>
+	            <li class="areacode" data-area="440400">珠海市</li>
+	            <li class="areacode" data-area="440500">汕头市</li>
+	            <li class="areacode" data-area="440600">佛山市</li>
+	            <li class="areacode" data-area="440700">江门市</li>
+	            <li class="areacode" data-area="440800">湛江市</li>
+	            <li class="areacode" data-area="440900">茂名市</li>
+	            <li class="areacode" data-area="441200">肇庆市</li>
+	            <li class="areacode" data-area="441300">惠州市</li>
+	            <li class="areacode" data-area="441400">梅州市</li>
+	            <li class="areacode" data-area="441500">汕尾市</li>
+	            <li class="areacode" data-area="441600">河源市</li>
+	            <li class="areacode" data-area="441700">阳江市</li>
+	            <li class="areacode" data-area="441800">清远市</li>
+	            <li class="areacode" data-area="441900">东莞市</li>
+	            <li class="areacode" data-area="442000">中山市</li>
+	            <li class="areacode" data-area="445100">潮州市</li>
+	            <li class="areacode" data-area="445200">揭阳市</li>
+	            <li class="areacode" data-area="445300">云浮市</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="07">
+	            <li class="areacode" data-area="45">广西省</li>
+	            <li class="areacode" data-area="450100">南宁市</li>
+	            <li class="areacode" data-area="450200">柳州市</li>
+	            <li class="areacode" data-area="450300">桂林市</li>
+	            <li class="areacode" data-area="450400">梧州市</li>
+	            <li class="areacode" data-area="450500">北海市</li>
+	            <li class="areacode" data-area="450600">防城港市</li>
+	            <li class="areacode" data-area="450700">钦州市</li>
+	            <li class="areacode" data-area="450800">贵港市</li>
+	            <li class="areacode" data-area="450900">玉林市</li>
+	            <li class="areacode" data-area="451000">百色市</li>
+	            <li class="areacode" data-area="451100">贺州市</li>
+	            <li class="areacode" data-area="451200">河池市</li>
+	            <li class="areacode" data-area="451300">来宾市</li>
+	            <li class="areacode" data-area="451400">崇左市</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="08">
+	            <li class="areacode" data-area="52">贵州省</li>
+	            <li class="areacode" data-area="520100">贵阳市</li>
+	            <li class="areacode" data-area="520200">六盘水市</li>
+	            <li class="areacode" data-area="520300">遵义市</li>
+	            <li class="areacode" data-area="520400">安顺市</li>
+	            <li class="areacode" data-area="520500">毕节市</li>
+	            <li class="areacode" data-area="520600">铜仁市</li>
+	            <li class="areacode" data-area="522300">黔西南布依族苗族自治州</li>
+	            <li class="areacode" data-area="522600">黔东南苗族侗族自治州</li>
+	            <li class="areacode" data-area="522700">黔南布依族苗族自治州</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="09">
+	            <li class="areacode" data-area="46">海南省</li>
+	            <li class="areacode" data-area="460100">海口市</li>
+	            <li class="areacode" data-area="460200">三亚市</li>
+	            <li class="areacode" data-area="460300">三沙市</li>
+	            <li class="areacode" data-area="460400">儋州市</li>
+				<li class="areacode" data-area="469001">五指山市</li>
+				<li class="areacode" data-area="469002">琼海市</li>
+				<li class="areacode" data-area="469005">文昌市</li>
+				<li class="areacode" data-area="469006">万宁市</li>
+				<li class="areacode" data-area="469007">东方市</li>
+				<li class="areacode" data-area="469021">定安县</li>
+				<li class="areacode" data-area="469022">屯昌县</li>
+				<li class="areacode" data-area="469023">澄迈县</li>
+				<li class="areacode" data-area="469024">临高县</li>
+				<li class="areacode" data-area="469025">白沙黎族自治县</li>
+				<li class="areacode" data-area="469026">昌江黎族自治县</li>
+				<li class="areacode" data-area="469027">乐东黎族自治县</li>
+				<li class="areacode" data-area="469028">陵水黎族自治县</li>
+				<li class="areacode" data-area="469029">保亭黎族苗族自治县</li>
+				<li class="areacode" data-area="469030">琼中黎族苗族自治县</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="10">
+	            <li class="areacode" data-area="23">黑龙江省</li>
+	            <li class="areacode" data-area="230100">哈尔滨市</li>
+	            <li class="areacode" data-area="230200">齐齐哈尔市</li>
+	            <li class="areacode" data-area="230300">鸡西市</li>
+	            <li class="areacode" data-area="230400">鹤岗市</li>
+	            <li class="areacode" data-area="230500">双鸭山市</li>
+	            <li class="areacode" data-area="230600">大庆市 </li>
+	            <li class="areacode" data-area="230700">伊春市</li>
+	            <li class="areacode" data-area="230800">佳木斯市</li>
+	            <li class="areacode" data-area="230900">七台河市</li>
+	            <li class="areacode" data-area="231000">牡丹江市</li>
+	            <li class="areacode" data-area="231100">黑河市</li>
+	            <li class="areacode" data-area="231200">绥化市</li>
+	            <li class="areacode" data-area="232700">大兴安岭地区</li>
+	
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="11">
+	            <li class="areacode" data-area="13">河北省</li>
+	            <li class="areacode" data-area="130100">石家庄市</li>
+	            <li class="areacode" data-area="130200">唐山市</li>
+	            <li class="areacode" data-area="130300">秦皇岛市</li>
+	            <li class="areacode" data-area="130400">邯郸市</li>
+	            <li class="areacode" data-area="130500">邢台市</li>
+	            <li class="areacode" data-area="130600">保定市</li>
+	            <li class="areacode" data-area="130700">张家口市</li>
+	            <li class="areacode" data-area="130800">承德市</li>
+	            <li class="areacode" data-area="130900">沧州市</li>
+	            <li class="areacode" data-area="131000">廊坊市</li>
+	            <li class="areacode" data-area="131100">衡水市</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="12">
+	            <li class="areacode" data-area="41">河南省</li>
+	            <li class="areacode" data-area="410100">郑州市</li>
+	            <li class="areacode" data-area="410200">开封市</li>
+	            <li class="areacode" data-area="410300">洛阳市</li>
+	            <li class="areacode" data-area="410400">平顶山市</li>
+	            <li class="areacode" data-area="410500">安阳市</li>
+	            <li class="areacode" data-area="410600">鹤壁市</li>
+	            <li class="areacode" data-area="410700">新乡市</li>
+	            <li class="areacode" data-area="410800">焦作市</li>
+	            <li class="areacode" data-area="410900">濮阳市</li>
+	            <li class="areacode" data-area="411000">许昌市</li>
+	            <li class="areacode" data-area="411100">漯河市</li>
+	            <li class="areacode" data-area="411200">三门峡市</li>
+	            <li class="areacode" data-area="411300">南阳市</li>
+	            <li class="areacode" data-area="411400">商丘市</li>
+	            <li class="areacode" data-area="411500">信阳市</li>
+	            <li class="areacode" data-area="411600">周口市</li>
+	            <li class="areacode" data-area="411700">驻马店市</li>
+	            <li class="areacode" data-area="419001">济源市</li>
+	          </ul>
+	          <li>
+	            <a class="onecode" href="javascript:;">
+	              <span data-index="13" data-area="42">湖北</span>
+	              <span data-index="14" data-area="43">湖南</span>
+	              <span data-index="15" data-area="22">吉林</span>
+	              <span data-index="16" data-area="32">江苏</span>
+	              <span data-index="17" data-area="36">江西</span>
+	              <span data-index="18" data-area="21">辽宁</span>
+	              <span data-index="19" data-area="15">内蒙古</span>
+	              <span data-index="20" data-area="64">宁夏</span>
+	              <span data-index="21" data-area="63">青海</span>
+	              <span data-index="22" data-area="37">山东</span>
+	              <span data-index="23" data-area="14">山西</span>
+	              <span data-index="24" data-area="61">陕西</span>
+	            </a>
+	          </li>
+	          <ul class="shilist clearfix hide" data-index="13">
+	            <li class="areacode" data-area="42">湖北省</li>
+	            <li class="areacode" data-area="420100">武汉市</li>
+	            <li class="areacode" data-area="420200">黄石市</li>
+	            <li class="areacode" data-area="420300">十堰市</li>
+	            <li class="areacode" data-area="420500">宜昌市</li>
+	            <li class="areacode" data-area="420600">襄阳市</li>
+	            <li class="areacode" data-area="420700">鄂州市</li>
+	            <li class="areacode" data-area="420800">荆门市</li>
+	            <li class="areacode" data-area="420900">孝感市</li>
+	            <li class="areacode" data-area="421000">荆州市</li>
+	            <li class="areacode" data-area="421100">黄冈市</li>
+	            <li class="areacode" data-area="421200">咸宁市</li>
+	            <li class="areacode" data-area="421300">随州市</li>
+	            <li class="areacode" data-area="422800">恩施土家族苗族自治州</li>
+				<li class="areacode" data-area="429004">仙桃市</li>
+				<li class="areacode" data-area="429005">潜江市</li>
+				<li class="areacode" data-area="429006">天门市</li>
+				<li class="areacode" data-area="429021">神农架林区</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="14">
+	            <li class="areacode" data-area="43">湖南省</li>
+	            <li class="areacode" data-area="430100">长沙市</li>
+	            <li class="areacode" data-area="430200">株洲市</li>
+	            <li class="areacode" data-area="430300">湘潭市</li>
+	            <li class="areacode" data-area="430400">衡阳市</li>
+	            <li class="areacode" data-area="430500">邵阳市</li>
+	            <li class="areacode" data-area="430600">岳阳市</li>
+	            <li class="areacode" data-area="430700">常德市</li>
+	            <li class="areacode" data-area="430800">张家界市</li>
+	            <li class="areacode" data-area="430900">益阳市</li>
+	            <li class="areacode" data-area="431000">郴州市</li>
+	            <li class="areacode" data-area="431100">永州市</li>
+	            <li class="areacode" data-area="431200">怀化市</li>
+	            <li class="areacode" data-area="431300">娄底市</li>
+	            <li class="areacode" data-area="433100">湘西土家族苗族自治州</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="15">
+	            <li class="areacode" data-area="22">吉林省</li>
+	            <li class="areacode" data-area="220100">长春市</li>
+	            <li class="areacode" data-area="220200">吉林市</li>
+	            <li class="areacode" data-area="220300">四平市</li>
+	            <li class="areacode" data-area="220400">辽源市</li>
+	            <li class="areacode" data-area="220500">通化市</li>
+	            <li class="areacode" data-area="220600">白山市</li>
+	            <li class="areacode" data-area="220700">松原市</li>
+	            <li class="areacode" data-area="220800">白城市</li>
+	            <li class="areacode" data-area="222400">延边朝鲜族自治州</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="16">
+	            <li class="areacode" data-area="32">江苏省</li>
+	            <li class="areacode" data-area="320100">南京市</li>
+	            <li class="areacode" data-area="320200">无锡市</li>
+	            <li class="areacode" data-area="320300">徐州市</li>
+	            <li class="areacode" data-area="320400">常州市</li>
+	            <li class="areacode" data-area="320500">苏州市</li>
+	            <li class="areacode" data-area="320600">南通市</li>
+	            <li class="areacode" data-area="320700">连云港市</li>
+	            <li class="areacode" data-area="320800">淮安市</li>
+	            <li class="areacode" data-area="320900">盐城市</li>
+	            <li class="areacode" data-area="321000">扬州市</li>
+	            <li class="areacode" data-area="321100">镇江市</li>
+	            <li class="areacode" data-area="321200">泰州市</li>
+	            <li class="areacode" data-area="321300">宿迁市</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="17">
+	            <li class="areacode" data-area="36">江西省</li>
+	            <li class="areacode" data-area="360100">南昌市</li>
+	            <li class="areacode" data-area="360200">景德镇市</li>
+	            <li class="areacode" data-area="360300">萍乡市</li>
+	            <li class="areacode" data-area="360400">九江市</li>
+	            <li class="areacode" data-area="360500">新余市</li>
+	            <li class="areacode" data-area="360600">鹰潭市</li>
+	            <li class="areacode" data-area="360700">赣州市</li>
+	            <li class="areacode" data-area="360800">吉安市</li>
+	            <li class="areacode" data-area="360900">宜春市</li>
+	            <li class="areacode" data-area="361000">抚州市</li>
+	            <li class="areacode" data-area="361100">上饶市</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="18">
+	            <li class="areacode" data-area="21">辽宁省</li>
+	            <li class="areacode" data-area="210100">沈阳市</li>
+	            <li class="areacode" data-area="210200">大连市</li>
+	            <li class="areacode" data-area="210300">鞍山市</li>
+	            <li class="areacode" data-area="210400">抚顺市</li>
+	            <li class="areacode" data-area="210500">本溪市</li>
+	            <li class="areacode" data-area="210600">丹东市</li>
+	            <li class="areacode" data-area="210700">锦州市</li>
+	            <li class="areacode" data-area="210800">营口市</li>
+	            <li class="areacode" data-area="210900">阜新市</li>
+	            <li class="areacode" data-area="211000">辽阳市</li>
+	            <li class="areacode" data-area="211100">盘锦市</li>
+	            <li class="areacode" data-area="211200">铁岭市</li>
+	            <li class="areacode" data-area="211300">朝阳市</li>
+	            <li class="areacode" data-area="211400">葫芦岛市</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="19">
+	            <li class="areacode" data-area="15">内蒙古</li>
+	            <li class="areacode" data-area="150100">呼和浩特市</li>
+	            <li class="areacode" data-area="150200">包头市</li>
+	            <li class="areacode" data-area="150300">乌海市</li>
+	            <li class="areacode" data-area="150400">赤峰市</li>
+	            <li class="areacode" data-area="150500">通辽市</li>
+	            <li class="areacode" data-area="150600">鄂尔多斯市</li>
+	            <li class="areacode" data-area="150700">呼伦贝尔市</li>
+	            <li class="areacode" data-area="150800">巴彦淖尔市</li>
+	            <li class="areacode" data-area="150900">乌兰察布市</li>
+	            <li class="areacode" data-area="152200">兴安盟</li>
+	            <li class="areacode" data-area="152500">锡林郭勒盟</li>
+	            <li class="areacode" data-area="152900">阿拉善盟</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="20">
+	            <li class="areacode" data-area="64">宁夏回族自治区</li>
+	            <li class="areacode" data-area="640100">银川市</li>
+	            <li class="areacode" data-area="640200">石嘴山市</li>
+	            <li class="areacode" data-area="640300">吴忠市</li>
+	            <li class="areacode" data-area="640400">固原市</li>
+	            <li class="areacode" data-area="640500">中卫市</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="21">
+	            <li class="areacode" data-area="63">青海省</li>
+	            <li class="areacode" data-area="630100">西宁市</li>
+	            <li class="areacode" data-area="630200">海东市</li>
+	            <li class="areacode" data-area="632200">海北藏族自治州</li>
+	            <li class="areacode" data-area="632300">黄南藏族自治州</li>
+	            <li class="areacode" data-area="632500">海南藏族自治州</li>
+	            <li class="areacode" data-area="632600">果洛藏族自治州</li>
+	            <li class="areacode" data-area="632700">玉树藏族自治州</li>
+	            <li class="areacode" data-area="632800">海西蒙古族藏族自治州</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="22">
+	            <li class="areacode" data-area="37">山东省</li>
+	            <li class="areacode" data-area="370100">济南市</li>
+	            <li class="areacode" data-area="370200">青岛市</li>
+	            <li class="areacode" data-area="370300">淄博市</li>
+	            <li class="areacode" data-area="370400">枣庄市</li>
+	            <li class="areacode" data-area="370500">东营市</li>
+	            <li class="areacode" data-area="370600">烟台市</li>
+	            <li class="areacode" data-area="370700">潍坊市</li>
+	            <li class="areacode" data-area="370800">济宁市</li>
+	            <li class="areacode" data-area="370900">泰安市</li>
+	            <li class="areacode" data-area="371000">威海市</li>
+	            <li class="areacode" data-area="371100">日照市</li>
+	            <li class="areacode" data-area="371200">莱芜市</li>
+	            <li class="areacode" data-area="371300">临沂市</li>
+	            <li class="areacode" data-area="371400">德州市</li>
+	            <li class="areacode" data-area="371500">聊城市</li>
+	            <li class="areacode" data-area="371600">滨州市</li>
+	            <li class="areacode" data-area="371700">菏泽市</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="23">
+	            <li class="areacode" data-area="14">山西省</li>
+	            <li class="areacode" data-area="140100">太原市</li>
+	            <li class="areacode" data-area="140200">大同市</li>
+	            <li class="areacode" data-area="140300">阳泉市</li>
+	            <li class="areacode" data-area="140400">长治市</li>
+	            <li class="areacode" data-area="140500">晋城市</li>
+	            <li class="areacode" data-area="140600">朔州市</li>
+	            <li class="areacode" data-area="140700">晋中市</li>
+	            <li class="areacode" data-area="140800">运城市</li>
+	            <li class="areacode" data-area="140900">忻州市</li>
+	            <li class="areacode" data-area="141000">临汾市</li>
+	            <li class="areacode" data-area="141100">吕梁市</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="24">
+	            <li class="areacode" data-area="61">陕西省</li>
+	            <li class="areacode" data-area="610100">西安市</li>
+	            <li class="areacode" data-area="610200">铜川市</li>
+	            <li class="areacode" data-area="610300">宝鸡市</li>
+	            <li class="areacode" data-area="610400">咸阳市</li>
+	            <li class="areacode" data-area="610500">渭南市</li>
+	            <li class="areacode" data-area="610600">延安市</li>
+	            <li class="areacode" data-area="610700">汉中市</li>
+	            <li class="areacode" data-area="610800">榆林市</li>
+	            <li class="areacode" data-area="610900">安康市</li>
+	            <li class="areacode" data-area="611000">商洛市</li>
+	          </ul>
+	          <li>
+	            <a class="onecode" href="javascript:;">
+	              <span data-index="25" data-area="31">上海</span>
+	              <span data-index="26" data-area="51">四川</span>
+	              <span data-index="27" data-area="12">天津</span>
+	              <span data-index="28" data-area="54">西藏</span>
+	              <span data-index="29" data-area="65">新疆</span>
+	              <span data-index="30" data-area="53">云南</span>
+	              <span data-index="31" data-area="33">浙江</span>
+	              <span data-index="32" data-area="71">台湾省</span>
+	              <span data-index="33" data-area="81">香港特别行政区</span>
+	              <span data-index="34" data-area="82">澳门特别行政区</span>
+	            </a>
+	          </li>
+	          <ul class="shilist clearfix hide" data-index="25">
+	            <!-- <Li class="areacode" data-area="310100">市辖区  </li>  -->
+	            <Li class="areacode" data-area="31">上海市</li>
+	            <Li class="areacode" data-area="310101">黄浦区 </li>
+	            <Li class="areacode" data-area="310104">徐汇区 </li>
+	            <Li class="areacode" data-area="310105">长宁区 </li>
+	            <Li class="areacode" data-area="310106">静安区 </li>
+	            <Li class="areacode" data-area="310107">普陀区 </li>
+	            <Li class="areacode" data-area="310109">虹口区 </li>
+	            <Li class="areacode" data-area="310110">杨浦区 </li>
+	            <Li class="areacode" data-area="310112">闵行区 </li>
+	            <Li class="areacode" data-area="310113">宝山区 </li>
+	            <Li class="areacode" data-area="310114">嘉定区 </li>
+	            <Li class="areacode" data-area="310115">浦东新区</li>
+	            <Li class="areacode" data-area="310116">金山区 </li>
+	            <Li class="areacode" data-area="310117">松江区 </li>
+	            <Li class="areacode" data-area="310118">青浦区 </li>
+	            <Li class="areacode" data-area="310120">奉贤区 </li>
+	            <Li class="areacode" data-area="310151">崇明区 </li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="26">
+	            <li class="areacode" data-area="51">四川省</li>
+	            <li class="areacode" data-area="510100">成都市</li>
+	            <li class="areacode" data-area="510300">自贡市</li>
+	            <li class="areacode" data-area="510400">攀枝花市</li>
+	            <li class="areacode" data-area="510500">泸州市</li>
+	            <li class="areacode" data-area="510600">德阳市</li>
+	            <li class="areacode" data-area="510700">绵阳市</li>
+	            <li class="areacode" data-area="510800">广元市</li>
+	            <li class="areacode" data-area="510900">遂宁市</li>
+	            <li class="areacode" data-area="511000">内江市</li>
+	            <li class="areacode" data-area="511100">乐山市</li>
+	            <li class="areacode" data-area="511300">南充市</li>
+	            <li class="areacode" data-area="511400">眉山市</li>
+	            <li class="areacode" data-area="511500">宜宾市</li>
+	            <li class="areacode" data-area="511600">广安市</li>
+	            <li class="areacode" data-area="511700">达州市</li>
+	            <li class="areacode" data-area="511800">雅安市</li>
+	            <li class="areacode" data-area="511900">巴中市</li>
+	            <li class="areacode" data-area="512000">资阳市</li>
+	            <li class="areacode" data-area="513200">阿坝藏族羌族自治州</li>
+	            <li class="areacode" data-area="513300">甘孜藏族自治州</li>
+	            <li class="areacode" data-area="513400">凉山彝族自治州</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="27">
+	            <!-- <li class="areacode" data-area="120100">市辖区</li> -->
+	            <li class="areacode" data-area="12">天津市</li>
+	            <li class="areacode" data-area="120101">和平区</li>
+	            <li class="areacode" data-area="120102">河东区</li>
+	            <li class="areacode" data-area="120103">河西区</li>
+	            <li class="areacode" data-area="120104">南开区</li>
+	            <li class="areacode" data-area="120105">河北区</li>
+	            <li class="areacode" data-area="120106">红桥区</li>
+	            <li class="areacode" data-area="120110">东丽区</li>
+	            <li class="areacode" data-area="120111">西青区</li>
+	            <li class="areacode" data-area="120112">津南区</li>
+	            <li class="areacode" data-area="120113">北辰区</li>
+	            <li class="areacode" data-area="120114">武清区</li>
+	            <li class="areacode" data-area="120115">宝坻区</li>
+	            <li class="areacode" data-area="120116">滨海新区</li>
+	            <li class="areacode" data-area="120117">宁河区</li>
+	            <li class="areacode" data-area="120118">静海区</li>
+	            <li class="areacode" data-area="120119">蓟州区</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="28">
+	            <li class="areacode" data-area="54">西藏自治区</li>
+	            <li class="areacode" data-area="540100">拉萨市 </li>
+	            <li class="areacode" data-area="540200">日喀则市</li>
+	            <li class="areacode" data-area="540300">昌都市 </li>
+	            <li class="areacode" data-area="540400">林芝市 </li>
+	            <li class="areacode" data-area="540500">山南市 </li>
+	            <li class="areacode" data-area="542400">那曲地区</li>
+	            <li class="areacode" data-area="542500">阿里地区</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="29">
+	            <li class="areacode" data-area="65">新疆维吾尔自治区 </li>
+	            <li class="areacode" data-area="650100">乌鲁木齐市 </li>
+	            <li class="areacode" data-area="650200">克拉玛依市 </li>
+	            <li class="areacode" data-area="650400">吐鲁番市 </li>
+	            <li class="areacode" data-area="650500">哈密市 </li>
+	            <li class="areacode" data-area="652300">昌吉回族自治州 </li>
+	            <li class="areacode" data-area="652700">博尔塔拉蒙古自治州 </li>
+	            <li class="areacode" data-area="652800">巴音郭楞蒙古自治州 </li>
+	            <li class="areacode" data-area="652900">阿克苏地区 </li>
+	            <li class="areacode" data-area="653000">克孜勒苏柯尔克孜自治州</li>
+	            <li class="areacode" data-area="653100">喀什地区 </li>
+	            <li class="areacode" data-area="653200">和田地区 </li>
+	            <li class="areacode" data-area="654000">伊犁哈萨克自治州 </li>
+	            <li class="areacode" data-area="654200">塔城地区 </li>
+	            <li class="areacode" data-area="654300">阿勒泰地区 </li>
+	            <li class="areacode" data-area="659000">新疆生产建设兵团 </li>
+				<li class="areacode" data-area="659001">石河子市</li>
+				<li class="areacode" data-area="659002">阿拉尔市</li>
+				<li class="areacode" data-area="659003">图木舒克市</li>
+				<li class="areacode" data-area="659004">五家渠市</li>
+				<li class="areacode" data-area="659005">北屯市</li>
+				<li class="areacode" data-area="659006">铁门关市</li>
+				<li class="areacode" data-area="659009">昆玉市</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="30">
+	            <li class="areacode" data-area="53">云南省 </li>
+	            <li class="areacode" data-area="530100">昆明市 </li>
+	            <li class="areacode" data-area="530300">曲靖市 </li>
+	            <li class="areacode" data-area="530400">玉溪市 </li>
+	            <li class="areacode" data-area="530500">保山市 </li>
+	            <li class="areacode" data-area="530600">昭通市 </li>
+	            <li class="areacode" data-area="530700">丽江市 </li>
+	            <li class="areacode" data-area="530800">普洱市 </li>
+	            <li class="areacode" data-area="530900">临沧市 </li>
+	            <li class="areacode" data-area="532300">楚雄彝族自治州 </li>
+	            <li class="areacode" data-area="532500">红河哈尼族彝族自治州</li>
+	            <li class="areacode" data-area="532600">文山壮族苗族自治州 </li>
+	            <li class="areacode" data-area="532800">西双版纳傣族自治州 </li>
+	            <li class="areacode" data-area="532900">大理白族自治州 </li>
+	            <li class="areacode" data-area="533100">德宏傣族景颇族自治州</li>
+	            <li class="areacode" data-area="533300">怒江傈僳族自治州 </li>
+	            <li class="areacode" data-area="533400">迪庆藏族自治州 </li>
+	
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="31">
+	            <li class="areacode" data-area="33">浙江省</li>
+	            <li class="areacode" data-area="330100">杭州市</li>
+	            <li class="areacode" data-area="330200">宁波市</li>
+	            <li class="areacode" data-area="330300">温州市</li>
+	            <li class="areacode" data-area="330400">嘉兴市</li>
+	            <li class="areacode" data-area="330500">湖州市</li>
+	            <li class="areacode" data-area="330600">绍兴市</li>
+	            <li class="areacode" data-area="330700">金华市</li>
+	            <li class="areacode" data-area="330800">衢州市</li>
+	            <li class="areacode" data-area="330900">舟山市</li>
+	            <li class="areacode" data-area="331000">台州市</li>
+	            <li class="areacode" data-area="331100">丽水市</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="32">
+	            <li class="areacode" data-area="710000">台湾省</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="33">
+	            <li class="areacode" data-area="810000">香港特别行政区</li>
+	          </ul>
+	          <ul class="shilist clearfix hide" data-index="34">
+	            <li class="areacode" data-area="820000">澳门特别行政区</li>
+	          </ul>
+	        </ul>
+	      </div>
+                    <div class="btn-group input-group input-group-lg">
+                        <input type="text" class="form-control searchKeywords basic-bd-color" placeholder="请输入公司的关键字">
+                    </div>
+                    <button class="btn btn-default btn-search btn-primary basic-color-bg basic-bd-color" type="button" id="jobSearch">搜索</button>
+                </div>
+
+
+             <!-- 行业列表 -->
+             <div class="mylist">
+	             <div class="optionIndustry hide">已选行业</div>
+		             <div class="industryList-box clearfix">
+		             	<span>所属行业</span>
+		                 <ul class="industryList clearfix">
+		                     
+		                     <li class="active typeList"  data-type="" value="">全部</li>
+		                     <li class="typeList" data-type="0001" value="0001">互联网/通信/电子<div class="secUl hide"></div></li>
+		                     <li class="typeList" data-type="0002" value="0002">金融<div class="secUl hide"></div></li>
+		                     <li class="typeList" data-type="0003" value="0003">生产/加工/制造<div class="secUl hide"></div></li>
+		                     <li class="typeList" data-type="0004" value="0004">制药/医疗<div class="secUl hide"></div></li>
+		                     <li class="typeList" data-type="0005" value="0005">广告/传媒/文化/体育<div class="secUl hide"></div></li>
+		                     <li class="typeList" data-type="0006" value="0006">教育<div class="secUl hide"></div></li>
+		                     <li class="typeList" data-type="0007" value="0007">房地产/建筑业<div class="secUl hide"></div></li>
+		                     <li class="typeList" data-type="0008" value="0008">贸易/工艺/消费品<div class="secUl hide"></div></li>
+		                     <li class="typeList" data-type="0009" value="0009">能源/矿产<div class="secUl hide"></div></li>
+		                     <li class="typeList" data-type="0010" value="0010">物流/运输<div class="secUl hide"></div></li>
+		                     <li class="typeList" data-type="0011" value="0011">服务业<div class="secUl hide"></div></li>
+		                 	 <li class="typeList" data-type="0012" value="0012">政府/非盈利机构/其他<div class="secUl hide"></div></li>
+		                 </ul>
+		                </div>
+	                 <div class="propertyList-box clearfix">
+		                 <span>公司性质</span>
+		                 <ul class="propertyList clearfix">
+		                    <li class="active typeList" data-type="">全部</li>
+		                    <li class="typeList" data-type="国有企业">国有企业</li>
+							<li class="typeList" data-type="股份制企业">股份制企业</li>
+							<li class="typeList" data-type="民营企业">民营企业</li>
+							<li class="typeList" data-type="上市公司">上市公司</li>
+							<li class="typeList" data-type="港澳台公司">港澳台公司</li>
+							<li class="typeList" data-type="合资企业">合资企业</li>
+							<li class="typeList" data-type="外商独资/外企代表处">外商独资/外企代表处</li>
+							<li class="typeList" data-type="机关/事业单位/非营利机构">机关/事业单位/非营利机构</li>
+							<li class="typeList" data-type="其他">其他</li>
+		                 </ul>
+	                 </div>
+	             
+			 </div>
+             <!-- 职位列表 -->
+             <div class="position-list">
+                 <!-- 全选框 -->
+				 <div class="select">
+					 <input id="selectall" type="checkbox">全选
+					 <button type="button" class="btn btn-default bgcolor multiLike basic-bg-hv">收藏公司</button>
+				 </div>
+				 <div id="jobLIST" class="jobLIST">
+
+
+				 </div>
+             </div>
+ 
+				<div class="clearfix" id="pagebox">
+					<div id="page" class="text-center">
+
+					</div>
+				</div>
+          </div> 
+        </div>
+        <div>
+	<style>
+		/* 右侧导航栏 */
+		@media (max-width:1400px){
+		.right-box{position:fixed;bottom:238px;right:20px;}
+		}
+		@media (min-width:1400px){
+		.right-box{position:fixed;bottom:238px;left:50%;margin-left:640px;}
+		}
+		
+		.right-box .box-bar{width:60px;height:50px;background:#999;margin-top:10px;text-align:center;color:#fff;cursor:pointer;}
+		.right-box .box-bar i{font-size:22px;line-height:50px;}
+		.right-box .box-bar p{font-size:14px;}
+		.right-box p{padding-top:5px;}
+		.right-box .bar-three:hover,.right-box .bar-two:hover{background:#808080;}
+		.right-box .bar-two:hover .text{display: block;}
+		.right-box .bar-two:hover .iconfont{display: none;}
+		.right-box .bar-two .text{display: none;}
+	</style>
+	<div class="right-box">
+    	<div class="box-bar bar-one"><i class="iconfont icon-qr-code"></i>
+    		<div class="bigPic" style="top:-100px;left:-162px;">
+				<img src="//t1.chei.com.cn/ncss/student/img/weixinbig2.jpg">
+			</div>
+		</div>
+    	<div class="box-bar bar-two"><i class="iconfont icon-speech-bubble"></i><p class="text">意见<br/>反馈</p></div>
+    	<div class="box-bar bar-three hide"><i class="iconfont icon-up-arrow"></i></div>
+    </div>
+</div>
+    </div>
+    
+    <div class="modal fade bs-example-modal-sm" id="addjobfail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"  data-backdrop="static" data-keyboard="false">
+		<div class="modal-dialog modal-sm" role="document">
+	    	<div class="modal-content">
+	      		<div class="modal-header">
+	      			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+	        		<h4 class="modal-title" id="myModalLabel">提示</h4>
+	      		</div>
+	      		<div class="modal-body" id="errortext">收藏失败</div>
+	      		<div class="modal-footer">
+	        		<button type="button" class="btn btn-primary"  id="delsaveFalse" data-dismiss="modal">确定</button>
+	      		</div>
+	    	</div>
+	    </div>
+	</div>
+    
+	<div>
+	<style>
+		#mask-fankui .modal-dialog{width:500px;}
+		#mask-fankui .modal-content{width:500px;}
+		#mask-fankui textarea{height:252px;resize:none;}
+	</style>
+	<div class="modal fade" id="mask-fankui" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false"  data-backdrop="static" data-keyboard="false">
+		  <div class="modal-dialog modal-sm">
+		    <div class="modal-content">
+		      <form class="tankuang quxiao" id="fankui" action="/student/notification/addNon" method="post" role="form" enctype="multipart/form-data" autocomplete="off">
+			      <div class="modal-header">
+					  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+					  <h4 class="modal-title" id="myModalLabel">意见反馈</h4>
+			      </div>
+			      <div class="modal-body">
+			      	
+			      		<div class="mask-con">
+							<div>反馈类型：
+								<select class="categoriy-select form-control" name="type" required="required" style="display:inline-block;height:34px;border-color:#ccc;margin-bottom:0;">
+									<option value="" disabled selected="selected">请选择</option>
+									<option value="COMPLAIN">投诉</option>
+									<option value="FEEDBACK">反馈建议</option>
+								</select>
+								<div class="error error-first model-body hide" style="margin-left:75px;">反馈类型不能为空</div>
+							</div>
+							<div style="margin:20px 0 20px 74px;"><input class="title-input hide form-control" name="description"  value="" placeholder="标题" maxlength="64" required="required"><div class="error hide">标题不能为空</div></div>
+							<div style="margin-left:74px;"><textarea class="form-inner form-control" style="margin-left:0;width:340px;" name="context" value="" placeholder="问题描述" maxlength="200" required="required"></textarea><div class="error hide">问题描述不能为空</div></div>
+							<input name="jobId" type="hidden"/>
+							
+						</div>
+			      	
+			      </div>
+			      <div class="modal-footer">
+						<div class="btn btn-primary" id="fankui-submit">提交</div>
+						<div class="giveUp btn btn-default">取消</div>
+			      </div>
+		      </form>
+		    </div>
+		  </div>
+		</div>
+	
+	
+</div>
+	<div>
+        <div id="mask4" class="hide maskmodal">false</div>
+        <div id="maskUser" class="hide maskmodal">false</div>
+    </div>
+	<div>
+		<footer style="height:160px;background:#333;color:#fff;text-align:center;line-height:27px;margin-top:30px;">
+			<div style="width:1170px;margin:0 auto;position:relative;    padding-left: 470px; padding-top: 25px;">
+				<img type="image/svg+xml" style="position: absolute;left:188px;top:53px;width:270px;" src="//t4.chei.com.cn/ncss/student/img/logo-white.svg"/>
+				<p style="margin:0;word-spacing:23px;color:#ccc">
+		            <a style="color:#ccc" href="//www.ncss.cn/intro/index.shtml" target="_blank">网站介绍</a>
+		            <span>|</span>
+		            <a style="color:#ccc" href="//www.ncss.cn/contact/index.shtml" target="_blank">联系我们</a>
+		        </p>
+		        <p style="margin:0">主管部门：<a style="color:#fff" href="http://www.moe.gov.cn/" target="_blank">中华人民共和国教育部</a></p>
+		        <p style="margin:0">版权所有：<a style="color:#fff" href="http://chesicc.moe.edu.cn/" target="_blank">全国高等学校学生信息咨询与就业指导中心</a></p>
+		        <p style="margin:0">京ICP备19004913号</p>
+			</div>
+		</footer>
+		<script type="text/javascript" charset="utf-8" src="//t3.chei.com.cn/ncss/student/js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="//t3.chei.com.cn/ncss/student/js/bootstrap.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="//t4.chei.com.cn/ncss/student/js/slide-bar-1.0.3.js"></script>
+		<script>
+				$("#corpSignout").on("click",function(){
+					var $this = $(this);
+					$.ajax({
+						type:"post",
+						url:"/student/signoutcorp.html",
+						success:function(data){
+							window.location.href=$this.attr("data-hr")
+						}
+					})
+				})
+					
+				</script>
+	</div>
+    
+	<div>
+	<div class="modal fade bs-example-modal-sm" id="fankui-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"  data-backdrop="static" data-keyboard="false">
+		<div class="modal-dialog modal-sm" role="document">
+	    	<div class="modal-content">
+	      		<div class="modal-header">
+	      			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+	        		<h4 class="modal-title" id="myModalLabel">提示</h4>
+	      		</div>
+	      		<div class="modal-body" id="errortext">反馈成功，工作人员会尽快给您回复。</div>
+	      		<div class="modal-footer">
+	        		<button type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+	      		</div>
+	    	</div>
+	    </div>
+	</div>
+	
+</div>
+	 <div>
+      	<style>
+      		 /* 切换站点弹框 */
+
+   
+	    .modal-site.modal .modal-dialog {
+	      width: 252px;
+	    }
+	
+	    .modal-site.modal .modal-header {
+          padding:15px;
+        }
+        .modal-site.modal .left-ex {
+		    margin-left: 42px;
+		}
+		.modal-site.modal .site-type{
+		    color: #333;
+	        font-weight: bold;
+		}
+	    .modal-site.modal .head-title {
+	      height: 60px;
+	      line-height: 60px;
+	      padding-left: 15px;
+	    }
+	
+	    .modal-site.modal .modal-cont {
+	      padding: 0 47px;
+	    }
+	
+	    .modal-site.modal .modal-header .close {
+	      background: transparent;
+	      font-size: 20px;
+	      height: 24px;
+	      line-height: 20px;
+	      border: none;
+	      font-size: 36px;
+	      float: right;
+	    }
+	
+	    .modal-site.modal .modal-body .province-sel {
+	      width: 200px;
+	      height: 39px;
+	      border-radius: 0;
+	      float: left;
+	      border-color: #ccc !important;
+	      border-width: 1px !important;
+	      cursor: pointer;
+	    }
+	
+	    .modal-site.modal .modal-body .province-sch {
+	      width: 200px;
+	      height: 39px;
+	      border-radius: 0;
+	      float: right;
+	      border-color: #ccc !important;
+	      border-width: 1px !important;
+	      cursor: pointer;
+	    }
+	
+	    .modal-site.modal .checkeditem {
+	      display: inline-block;
+	      height: 40px;
+	      line-height: 40px;
+	      padding: 0 38px;
+	      border: 1px solid #ccc;
+	    }
+	    .modal-site.modal .quanguo-site {
+	      display: inline-block;
+	      height: 40px;
+	      line-height: 40px;
+	      padding: 0 38px;
+	      border: 1px solid #ccc;
+	      color:#333;
+	    }
+	    .modal-site.modal .quanguo-site:hover{
+	    border: 1px solid #03a9f4;
+	    color: #03a9f4;
+	    }
+	
+	    .modal-site.modal .tuijian {
+	      display: inline-block;
+	      height: 40px;
+	      line-height: 40px;
+	      padding: 0 38px;
+	      border: 1px solid #ccc;
+	      color: #333;
+	    }
+	
+	    .modal-site.modal .tuijian:hover {
+	      border: 1px solid #03a9f4;
+	      color: #03a9f4;
+	      text-decoration: none;
+	    }
+	
+	    .modal-site.modal .has-siteItem {
+	      margin-top: 18px;
+	      cursor: pointer;
+	    }
+	
+	    .modal-site.modal .checkeditem:hover {
+	      border: 1px solid #03a9f4;
+	      color: #03a9f4;
+	   
+	    }
+	
+	    .modal-site.modal .modal-tishi {
+	      margin: 30px 0 18px 0;
+	    }
+	
+	    /* 调整select2样式 */
+	
+	    .modal-site .select2-container {
+	      float: right;
+	    }
+	
+	    .modal-site .select2-container .select2-selection--single {
+	      height: 40px;
+	    }
+	
+	    .modal-site .select2-container--default .select2-selection--single .select2-selection__arrow {
+	      top: 6px;
+	    }
+	
+	    .modal-site .select2-container--default .select2-selection--single .select2-selection__rendered {
+	      line-height: 40px;
+	    }
+      	</style>
+      	<div class="modal fade bs-example-modal-sm modal-site" id="modal-site" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+		    <div class="modal-dialog" role="document" style="width:560px;height:615px;">
+		      <div class="modal-content" style="width:560px;height:615px;">
+		        <div class="modal-header">
+		          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		          <h4 class="modal-title">切换就业网站</h4>
+		        </div>
+		        <div class="modal-body" style="padding:0;">
+		          <div class="head-title">
+		            亲爱的用户：<span style="font-weight:bold;">切换分站</span>并登录后，将为您提供更准确的个性化职位推荐
+		          </div>
+		          <div class="modal-cont">
+		            <div class="modal-country">
+		              <div style="margin-bottom:18px;"><span class="site-type">全国就业网（新职业网）：</span>就业资源的完全网罗，不放过一个好职位</div>
+		              <div class="left-ex">
+		                <a>
+		                  <span class="btn-zd has-siteItem quanguo-site basic-cl-hv2" data-value="00" style="margin-top:0px;">新职业网</span>
+		                </a>
+		              </div>
+		            </div>
+		            <div class="modal-province">
+		              <div class="modal-tishi"><span class="site-type">省级就业网：</span>省内优质就业资源的集合</div>
+		              <div class="form-group has-feedback clearfix left-ex">
+		
+		                <select class="form-control choose province-sel" id="pro-sel" data-item="pro-sel">
+		                  <option value="">省份</option>
+		                  <option value="11">北京市</option>
+		                  <option value="12">天津市</option>
+		                  <option value="13">河北省</option>
+		                  <option value="14">山西省</option>
+		                  <option value="15">内蒙古自治区</option>
+		                  <option value="21">辽宁省</option>
+		                  <option value="22">吉林省</option>
+		                  <option value="23">黑龙江省</option>
+		                  <option value="31">上海市</option>
+		                  <option value="32">江苏省</option>
+		                  <option value="33">浙江省</option>
+		                  <option value="34">安徽省</option>
+		                  <option value="35">福建省</option>
+		                  <option value="36">江西省</option>
+		                  <option value="37">山东省</option>
+		                  <option value="41">河南省</option>
+		                  <option value="42">湖北省</option>
+		                  <option value="43">湖南省</option>
+		                  <option value="44">广东省</option>
+		                  <option value="45">广西壮族自治区</option>
+		                  <option value="46">海南省</option>
+		                  <option value="50">重庆市</option>
+		                  <option value="51">四川省</option>
+		                  <option value="52">贵州省</option>
+		                  <option value="53">云南省</option>
+		                  <option value="54">西藏自治区</option>
+		                  <option value="61">陕西省</option>
+		                  <option value="62">甘肃省</option>
+		                  <option value="63">青海省</option>
+		                  <option value="64">宁夏回族自治区</option>
+		                  <option value="65">新疆维吾尔自治区</option>
+		                </select>
+		                <div class="haschecked tuijian-probox hide" style="float:right;">
+		                  <span>推荐：</span>
+		                  <a class="tuijian basic-cl-hv2"></a>
+		                </div>
+		              </div>
+		              <div class="form-group has-feedback has-siteItem clearfix left-ex">
+		                <div class="haschecked pull-left" data-item="pro-sel" style="padding-left:0;">
+		                </div>
+		
+		                
+		              </div>
+		            </div>
+		            <div class="modal-school">
+		              <div class="modal-tishi"><span class="site-type">校级就业网：</span>母校亲选，为你更精准、个性化地推荐职位</div>
+		              <div class="form-group has-feedback clearfix left-ex">
+		                <select class="form-control province-sel" id="province-sch">
+		                  <option value="">省份</option>
+		                  <option value="11">北京市</option>
+		                  <option value="12">天津市</option>
+		                  <option value="13">河北省</option>
+		                  <option value="14">山西省</option>
+		                  <option value="15">内蒙古自治区</option>
+		                  <option value="21">辽宁省</option>
+		                  <option value="22">吉林省</option>
+		                  <option value="23">黑龙江省</option>
+		                  <option value="31">上海市</option>
+		                  <option value="32">江苏省</option>
+		                  <option value="33">浙江省</option>
+		                  <option value="34">安徽省</option>
+		                  <option value="35">福建省</option>
+		                  <option value="36">江西省</option>
+		                  <option value="37">山东省</option>
+		                  <option value="41">河南省</option>
+		                  <option value="42">湖北省</option>
+		                  <option value="43">湖南省</option>
+		                  <option value="44">广东省</option>
+		                  <option value="45">广西壮族自治区</option>
+		                  <option value="46">海南省</option>
+		                  <option value="50">重庆市</option>
+		                  <option value="51">四川省</option>
+		                  <option value="52">贵州省</option>
+		                  <option value="53">云南省</option>
+		                  <option value="54">西藏自治区</option>
+		                  <option value="61">陕西省</option>
+		                  <option value="62">甘肃省</option>
+		                  <option value="63">青海省</option>
+		                  <option value="64">宁夏回族自治区</option>
+		                  <option value="65">新疆维吾尔自治区</option>
+		                  <!-- <option value="71">台湾省</option>
+		                  <option value="81">香港特别行政区</option>
+		                  <option value="82">澳门特别行政区</option> -->
+		                </select>
+		                <select class="form-control choose province-sch" id="school-sel" data-item="school-sel">
+		                </select>
+		              </div>
+		              <div class="form-group has-feedback has-siteItem clearfix left-ex">
+		                <div class="haschecked pull-left" data-item="school-sel" style="padding-left:0;">
+		
+		                </div>
+		
+		                <div class="tuijian-schbox haschecked hide" style="float:right;">
+		                  <span>推荐：</span>
+		                  <a class="tuijian basic-cl-hv2"></a>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		
+		      </div>
+		    </div>
+		  </div>
+		  
+		  <script type="text/javascript" charset="utf-8" src="//t4.chei.com.cn/ncss/student/js/select2.min.js"></script>
+		  <script type="text/javascript" charset="utf-8" src="//t3.chei.com.cn/ncss/student/js/select-ZH-CN.js"></script>
+		  <script type="text/javascript" charset="utf-8" src="//t2.chei.com.cn/ncss/student/js/datas.js"></script>
+		  <script>
+		  /* 切换站点 */
+		  var local='';
+		  for(var i=3;i<location.href.split("/").length;i++){
+			  local+=location.href.split("/")[i]+'/'
+		  }
+		  local=local.substring(0, local.length - 1);
+			  $('#siteChange').click(function () {
+			    $('#pro-sel option').removeAttr('selected')
+			    $('#pro-sel option').eq(0).attr('selected', 'selected')
+			    $('#school-sel').html('')
+			    $("#school-sel").select2("val", "");
+			    $("#school-sel").empty();
+			    if ($('#pro-sel').val() == '') {
+			      $('.haschecked').each(function () {
+			        if ($(this).attr('data-item') == 'pro-sel') {
+			          $(this).html('')
+			        }
+			        if ($(this).attr('data-item') == 'school-sel') {
+			          $(this).html('')
+	
+			        }
+			      })
+	
+			    }
+			    $('#province-sch option').removeAttr('selected')
+			    $('#province-sch option').eq(0).attr('selected', 'selected')
+	
+			    $('#modal-site').modal('show')
+			  })
+			  /* 根据省份获取学校 */
+			  function schoollistFun(dataSfdm) {
+			    var innerSch = '';
+			    $.ajax({
+			      type: 'get',
+			      url: "/student/pubsite/schools",
+			      cache:false,
+			      data: {
+			        sfdm: dataSfdm
+			      },
+			      success: function (data) {
+			        for (var i = 0; i < data.length; i++) {
+			          innerSch += '<option value="' + data[i].siteId + '">' + data[i].siteName + '</option>'
+			        }
+			        $('#school-sel').html(innerSch)
+			         $("#school-sel").select2("val","");
+			        chooseFun()
+			       
+			      }
+			    })
+			  }
+			  $('#school-sel').select2({
+			    placeholder:"请选择学校站点",
+			    language: 'zh-CN'
+			  })
+			  $('#province-sch').change(function () {
+			    schoollistFun($(this).val())
+			  })
+	
+			  function chooseFun() {
+			    $('.choose').change(function () {
+			      var _this = $(this);
+			      if(_this.val()!=null){
+			      	$('.haschecked').each(function () {
+			  	      if (_this.attr('data-item') == $(this).attr('data-item')) {
+			  	        $(this).html('<span class="checkeditem basic-cl-hv2" data-value="' + _this.val() + '">' + _this.find('option:checked').text() + '</span>')
+			  	      }
+			  	    })
+			  	    siteAjaxFun()
+			      }
+			      
+			    })
+			  }
+			  chooseFun()
+			  /* 选择站点进行跳转 */
+			  function changeSiteFun(siteId) {
+			    $.ajax({
+			      type: 'get',
+			      url: "/student/pubsite/findOne",
+			      cache:false,
+			      data: {
+			        siteId: siteId
+			      },
+			      success: function (data) {
+			      	if(data.webUrl){
+			      		if (data.webUrl != '') {
+			      	        window.location.href='//'+data.webUrl.split("/")[2]+'/'+local
+			      	      }
+			      	}else{
+			      		window.location.href = '//job.ncss.cn/'+local
+			      	}
+			        
+	
+			      }
+			    })
+			  }
+			  /*请求推荐站点*/
+				$.ajax({
+					type:"get",
+					url:"/student/pubsite/recommendSite",
+					cache:false,
+					success:function(data){
+						if(data!='' && data!=null){
+							if(data.province && data.province!=''){
+								$('.tuijian-probox').removeClass('hide')
+								$('.tuijian-probox .tuijian').text(data.province.siteName).attr('href','//'+data.province.webUrl.split("/")[2]+'/'+local)
+							}else{
+								$('.tuijian-probox').addClass('hide')
+							}
+							if(data.school && data.school!=''){
+								$('.tuijian-schbox').removeClass('hide')
+								$('.tuijian-schbox .tuijian').text(data.school.siteName).attr('href','//'+data.school.webUrl.split("/")[2]+'/'+local)
+							}else{
+								$('.tuijian-schbox').addClass('hide')
+							}
+						}else{
+							$('.tuijian-probox').addClass('hide')
+							$('tuijian-schbox').addClass('hide')
+						}
+					}
+				});
+			  function siteAjaxFun() {
+			    $('.checkeditem').each(function () {
+			      $(this).click(function () {
+			        changeSiteFun($(this).attr('data-value'))
+			      })
+			    })
+			  }
+			  siteAjaxFun();
+			  $('.quanguo-site').click(function(){
+				  window.location.href = '//job.ncss.cn/'+local
+			  })
+			  /*ie11不能输入中文兼容*/
+			  $.fn.modal.Constructor.prototype.enforceFocus = function () {};
+		  </script>
+      </div>
+    <script type="text/javascript" charset="utf-8" src="//t1.chei.com.cn/ncss/student/js/jquery.pagination.js"></script>
+    <script type="text/javascript" charset="utf-8" src="//t4.chei.com.cn/ncss/student/js/company/index-1.0.2.js"></script>
+   
+	
+</body>
+</html>

@@ -1,0 +1,265 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>学生就业推荐网</title>
+<link rel="stylesheet" href="css/style1.css" type="text/css" media="all"/>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+//图片滚动 调用方法 imgscroll({speed: 30,amount: 1,dir: "up"});
+$.fn.imgscroll = function(o){
+	var defaults = {
+		speed: 40,
+		amount: 0,
+		width: 1,
+		dir: "left"
+	};
+	o = $.extend(defaults, o);
+	
+	return this.each(function(){
+		var _li = $("li", this);
+		_li.parent().parent().css({overflow: "hidden", position: "relative"}); //div
+		_li.parent().css({margin: "0", padding: "0", overflow: "hidden", position: "relative", "list-style": "none"}); //ul
+		_li.css({position: "relative", overflow: "hidden"}); //li
+		if(o.dir == "left") _li.css({float: "left"});
+		
+		//初始大小
+		var _li_size = 0;
+		for(var i=0; i<_li.size(); i++)
+			_li_size += o.dir == "left" ? _li.eq(i).outerWidth(true) : _li.eq(i).outerHeight(true);
+		
+		//循环所需要的元素
+		if(o.dir == "left") _li.parent().css({width: (_li_size*3)+"px"});
+		_li.parent().empty().append(_li.clone()).append(_li.clone()).append(_li.clone());
+		_li = $("li", this);
+
+		//滚动
+		var _li_scroll = 0;
+		function goto(){
+			_li_scroll += o.width;
+			if(_li_scroll > _li_size)
+			{
+				_li_scroll = 0;
+				_li.parent().css(o.dir == "left" ? { left : -_li_scroll } : { top : -_li_scroll });
+				_li_scroll += o.width;
+			}
+				_li.parent().animate(o.dir == "left" ? { left : -_li_scroll } : { top : -_li_scroll }, o.amount);
+		}
+		
+		//开始
+		var move = setInterval(function(){ goto(); }, o.speed);
+		_li.parent().hover(function(){
+			clearInterval(move);
+		},function(){
+			clearInterval(move);
+			move = setInterval(function(){ goto(); }, o.speed);
+		});
+	});
+};
+//友情链接下拉框跳转弹出新窗口
+function frlink(selObj){
+window.open(selObj.options[selObj.selectedIndex].value);}
+</script>
+</head>
+<body>
+<div id="hearder2" class="clearfix">
+	<div class="logo">
+   	  <img src="images/logo.png">
+  </div>
+  <div class="logo-name">欢迎来到学生就业推荐中心！</div>
+  <div class="form-tools">
+   	  <form id="search" name="search" method="post">
+      	<div class="tools-link">
+        
+        </div>
+        <div class="search-box">
+            <input type="text" name="textfield" id="textfield" class="input-text" placeholder="请输入搜索关键词">
+            <input type="image" src="images/search.png" class="input-submit" />
+        </div>
+  	  </form>
+    </div>
+</div>
+<div id="menu-box" class="clearfix">
+	<ul>
+    	<li><a href="index.html">首页</a></li>
+        <li><a href="detail1.html">职位</a></li>
+        <li><a href="list-pic1.html">企业</a></li>
+        <li><a href="list-pic2.html">招聘会</a></li>
+        <li><a href="form1.html">个人信息管理</a></li>
+        <li><a href="list-text1.html";ul type="circle" style="margin-left:30px">新闻中心</a></li>
+        <li><a href="detail2.html";ul type="circle" style="margin-left:40px">联系我们</a></li>
+    </ul>
+</div>
+
+<!-- index1-div1 -->
+<div id="index1-div1" class="clearfix">
+	<div class="index1-left675">
+    	<div class="title-box">资讯<a href="list-text1.html" class="title-more" title="查看更多"><img src="images/12.gif"></a></div>
+        <div id="butong_net_left" style="overflow:hidden;width:500px;">
+<table cellpadding="0" cellspacing="0" border="0">
+<tr><td id="butong_net_left1" valign="top" align="center">
+<table cellpadding="2" cellspacing="0" border="0">
+<tr align="center">
+<td><img src="images/a6.png"></td>
+<td><img src="images/a7.jpg"></td>
+<td><img src="images/a3.jpg"></td>
+<td><img src="images/a4.jpg"></td>
+</tr>
+</table>
+</td>
+<td id="butong_net_left2" valign="top"></td>
+</tr>
+</table>
+</div>
+<script>
+var speed=30//速度数值越大速度越慢
+butong_net_left2.innerHTML=butong_net_left1.innerHTML
+function Marquee3(){
+if(butong_net_left2.offsetWidth-butong_net_left.scrollLeft<=0)
+butong_net_left.scrollLeft-=butong_net_left1.offsetWidth
+else{
+butong_net_left.scrollLeft++
+}
+}
+var MyMar3=setInterval(Marquee3,speed)
+butong_net_left.onmouseover=function() {clearInterval(MyMar3)}
+butong_net_left.onmouseout=function() {MyMar3=setInterval(Marquee3,speed)}
+</script>
+<!--向左滚动代码结束-->
+<br>
+    </div>
+    <div class="index1-right300">
+    	<div class="title-box">通知公告<a href="list-text1.html" class="title-more" title="查看更多"><img src="images/12.gif"></a></div>
+          
+              <li><a href="http://www.chinajob.gov.cn/c/2019-01-25/89804.shtml">就业季来了！看看“95后”毕业生都会怎样选</a></li>
+              <li><a href="http://www.chinajob.gov.cn/c/2018-11-16/80311.shtml">陕西武功：“就业创业政策大礼包”活动促进贫困大学生就业创业工作</a></li>
+              <li><a href="http://www.chinajob.gov.cn/c/2018-09-06/75182.shtml">线上线下精准帮扶——2018国务院大督查聚焦高校毕业生就业创业</a></li>
+              <li><a href="http://www.chinajob.gov.cn/c/2018-09-26/76241.shtml">中国电信计划投入10亿元推动大学生创新创业</a></li>
+          </ul>
+    </div>
+</div>
+<!-- index1-div2 -->
+<div id="index1-div2" class="clearfix">
+	<div class="index1-left675">
+    	<div class="index1-li-box">
+    	<div class="index1-left330">
+        	<div class="title-box">最新职位<a href="list-text1.html" class="title-more" title="查看更多"><img src="images/12.gif"></a></div>
+            <img src="images/c1.gif" style="width:330px; height:140px; margin:5px 0;">
+            <ul>
+                <li><a href="detail1.html">研发工程师&emsp;&emsp;&ensp;山东|博士及以上</a><span style="font-size:17px; color:red;">8k-15k</span></li>
+                <li><a href="detail1.html">高中学科教师&emsp;&ensp;天津|本科及以上</a><span style="font-size:17px; color:red;">4k-8k</li>
+                <li><a href="detail1.html">助理软件工程师&ensp;西安|本科及以上</a><span style="font-size:17px; color:red;">4k-5k</span></li>
+                <li><a href="detail1.html">预算员&emsp;&emsp;&emsp;&emsp;&ensp;山东|本科及以上</a><span style="font-size:17px; color:red;">3.4k-4.5k</span></li>
+                <li><a href="detail1.html">策划总监&emsp;&emsp;&emsp;&ensp;浙江|本科及以上</a><span style="font-size:17px; color:red;">8k-20k</span></li>
+            </ul>
+        </div>
+        <div class="index1-right330">
+        	<div class="title-box">热门企业<a href="list-text1.html" class="title-more" title="查看更多"><img src="images/12.gif"></a></div>
+            <img src="images/c2.gif" style="width:330px; height:140px; margin:5px 0;">
+            <ul>
+                <li><a href="detail1.html">光大科技有限公司&ensp;国有企业|银行</a><span style="font-size:13px; color:red;">2个在招职位</span></li>
+                <li><a href="detail1.html">华硕电脑有限公司&ensp;外商独资|软件</a><span style="font-size:13px; color:red;">2个在招职位</span></li>
+                <li><a href="detail1.html">华润材料有限公司&ensp;国有企业|材料</a><span style="font-size:13px; color:red;">2个在招职位</span></li>
+                <li><a href="detail1.html">太平洋人寿保险有限公司&ensp;国有企业|保险</a><span style="font-size:13px; color:red;">2个在招职位</span></li>
+                <li><a href="detail1.html">内蒙古伊利实业集团股份有限公司&ensp;民营企业|快速消费品</a><span style="font-size:13px; color:red;">2个在招职位</span></li>
+            </ul>
+        </div>
+        </div>
+        <!-- slider -->
+        <div class="index1-pic-gun">
+        	<div class="title-box">世界500强企业招聘信息<a href="list-pic1.html" class="title-more" title="查看更多"><img src="images/12.gif"></a></div>
+            <div class="index1-scrollleft clearfix">
+                <ul>
+                    <li>
+                        <a href="https://www.yjbys.com/mingqi/c1201.html"><img alt="沃尔玛" src="images/a1.png"/></a>
+                        <span>沃尔玛</span>
+                    </li>
+                    <li>
+                        <a href="https://www.yjbys.com/mingqi/c692.html"><img alt="阿里巴巴" src="images/a2.jpg"/></a>
+                        <span>阿里巴巴</span>
+                    </li>
+                    <li>
+                        <a href="https://www.yjbys.com/mingqi/c657.html"><img alt="联想" src="images/a3.jpg"/></a>
+                        <span>联想</span>
+                    </li>
+                    <li>
+                        <a href="https://www.yjbys.com/mingqi/c760.html"><img alt="新浪" src="images/a4.jpg"/></a>
+                        <span>新浪</span>
+                    </li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+            $(document).ready(function(){
+            
+                $(".index1-scrollleft").imgscroll({
+                    speed: 40,    //图片滚动速度
+                    amount: 0,    //图片滚动过渡时间
+                    width: 1,     //图片滚动步数
+                    dir: "left"   // "left" 或 "up" 向左或向上滚动
+                });
+                
+            });
+            </script>
+            
+        </div>
+        <!-- slider end -->
+    </div>
+    <div class="index1-right300">
+        <div class="index1-login-box">
+          <div class="title-box">注册登录</div>
+          <form id="form1" name="form1" method="post" action="LoginServlet">
+            <input type="text" name="userName" id="textfield2" placeholder="用户名" class="index1-uname">
+            <input type="password" name="password" id="password" placeholder="密码" class="index1-upass">
+            <div class="index1-t-link">
+                <input type="checkbox" name="checkbox" id="checkbox" class="index1-chek">记住密码
+                <a href="forgetpass.html" target="_blank">忘记密码？</a>
+            </div>
+            <input type="submit" name="submit" id="submit" value="登录" class="index1-input-login">
+            <input type="button" name="button" id="button" value="注册" class="index1-input-but" onClick="window.open('register.html')">
+          </form>
+        </div>
+		<div class="index1-list-menu">
+        	<div class="title-box">热门职位<a href="list-pic1.html" class="title-more" title="查看更多"><img src="images/12.gif"></a></div>
+            <ul>
+            	<li><a href="detail1.html">高级Java开发工程师</a></li>
+                <li><a href="detail1.html">安全工程师</a></li>
+                <li><a href="detail1.html">数据挖掘</a></li>
+                <li><a href="detail1.html">数据治理技术咨询架构师</a></li>
+                <li><a href="detail1.html">煤矿总工程师</a></li>
+            </ul>
+    	</div>
+    </div>
+</div>
+<!-- div5 -->
+<div id="div5" class="clearfix">
+    <div class="link-box">
+    	<span>友情链接：</span>
+        <select onChange="frlink(this)" name="select" class="select-link">
+            <option selected>--- 教育类网站 ---</option>
+            <option value="http://www.neea.edu.cn/">中国教育考试网</option>
+            <option value="http://www.chinaedu.edu.cn/">中国高等教育学生信息网</option>
+            <option value="http://www.7caiedu.cn/">七彩教育网</option>
+        </select>
+        <select onChange="frlink(this)" name="select" class="select-link">
+            <option selected>--- 政府类网站 ---</option>
+            <option value="http://www.china.com">中华网</option>
+            <option value="http://www.sina.com.cn">新浪网</option>
+            <option value="http://www.163.com">网易</option>
+        </select>
+        <select onChange="frlink(this)" name="select" class="select-link">
+            <option selected>--- 校园类网站 ---</option>
+            <option value="https://www.ncss.org.cn/">中国校园网</option>
+            <option value="http://www.59store.com/">59校园生活服务平台</option>
+            <option value="http://campus.baidu.com/#/">百度校园</option>
+        </select>
+        <select onChange="frlink(this)" name="select" class="select-link">
+            <option selected>--- 其它类网站 ---</option>
+            <option value="http://www.veryhuo.com">烈火网</option>
+            <option value="http://www.baidu.com.cn">百度网</option>
+            <option value="https://www.taobao.com/">淘宝网</option>
+        </select>
+    </div>
+</div>
+</body>
+</html>
+
